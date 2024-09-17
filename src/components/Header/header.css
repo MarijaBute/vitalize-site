@@ -1,6 +1,11 @@
-.site-header{
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: transparent;
     padding-top: 15px;
+    z-index: 1; 
 }
 
 

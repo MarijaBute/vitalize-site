@@ -1,0 +1,23 @@
+.site-counter{
+    padding: 80px;
+}
+
+.counter-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countup,
+.plus{
+    font-size: 40px;
+    font-weight: 500;
+    color: #132016;
+}
+
+.counter-heading{
+    color: #2e2e2e;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0 !important;
+}

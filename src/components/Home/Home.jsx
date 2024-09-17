@@ -1,8 +1,11 @@
 import './home.css';
 import { GoArrowUpRight } from "react-icons/go";
+import Counter from './components/Counter/Counter';
+import HomeAbout from './components/HomeAbout/HomeAbout';
 
 export default function Home() {
     return (
+        <>
         <div className="site-home">
             <div className="home-wrapper">
             <div className="text-box-section">
@@ -27,5 +30,10 @@ export default function Home() {
             </div>   
          
         </div>
+
+        <Counter />
+        <HomeAbout />
+
+        </>
     )
 }
