@@ -3,6 +3,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Counter from './components/Counter/Counter';
 import HomeAbout from './components/HomeAbout/HomeAbout';
 import HomeServices from './components/HomeServices/HomeServices';
+import WhyUs from './components/WhyUs/WhyUs';
 
 export default function Home() {
     return (
@@ -35,6 +36,7 @@ export default function Home() {
         <Counter />
         <HomeAbout />
         <HomeServices />
+        <WhyUs />
 
         </>
     )
