@@ -1,6 +1,9 @@
 .why-us{
     background-color: #eef1ef;
     padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .why-us-wrapper{
@@ -8,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1440px !important;
 }
 
 .why-us-subheading{

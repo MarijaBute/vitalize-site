@@ -1,11 +1,15 @@
 .home-about-section{
     padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-about-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1440px !important;
 }
 
 .ha-left-section{

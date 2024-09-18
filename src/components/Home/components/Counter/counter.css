@@ -1,11 +1,16 @@
 .site-counter{
     padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .counter-wrapper{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 150px;
+    max-width: 1440px !important;
 }
 
 .countup,

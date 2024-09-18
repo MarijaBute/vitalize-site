@@ -1,12 +1,16 @@
 .home-services{
     padding: 80px;
     background-color: #132016;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-services-wrapper{
     display: flex;
     justify-content: center;
     gap: 50px;
+    max-width: 1440px !important;
 }
 
 .home-services-left,

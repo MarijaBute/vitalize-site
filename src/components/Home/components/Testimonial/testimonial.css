@@ -1,11 +1,15 @@
 .home-testimonial-section{
     padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .testimonial-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1440px !important;
     
 }
 
