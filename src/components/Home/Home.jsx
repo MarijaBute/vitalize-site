@@ -5,6 +5,7 @@ import HomeAbout from './components/HomeAbout/HomeAbout';
 import HomeServices from './components/HomeServices/HomeServices';
 import WhyUs from './components/WhyUs/WhyUs';
 import Testimonial from './components/Testimonial/Testimonial';
+import FAQ from './components/FAQ/FAQ';
 
 export default function Home() {
     return (
@@ -39,6 +40,7 @@ export default function Home() {
         <HomeServices />
         <WhyUs />
         <Testimonial />
+        <FAQ />
 
         </>
     )
