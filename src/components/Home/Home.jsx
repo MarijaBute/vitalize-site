@@ -4,6 +4,7 @@ import Counter from './components/Counter/Counter';
 import HomeAbout from './components/HomeAbout/HomeAbout';
 import HomeServices from './components/HomeServices/HomeServices';
 import WhyUs from './components/WhyUs/WhyUs';
+import Testimonial from './components/Testimonial/Testimonial';
 
 export default function Home() {
     return (
@@ -37,6 +38,7 @@ export default function Home() {
         <HomeAbout />
         <HomeServices />
         <WhyUs />
+        <Testimonial />
 
         </>
     )
