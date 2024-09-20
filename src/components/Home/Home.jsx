@@ -7,6 +7,7 @@ import WhyUs from './components/WhyUs/WhyUs';
 import Testimonial from './components/Testimonial/Testimonial';
 import FAQ from './components/FAQ/FAQ';
 import BlogPosts from './components/BlogPosts/BlogPosts';
+import ContactSection from './components/ContactSection/ContactSection';
 
 export default function Home() {
     return (
@@ -43,6 +44,7 @@ export default function Home() {
         <Testimonial />
         <FAQ />
         <BlogPosts />
+        <ContactSection />
 
         </>
     )
