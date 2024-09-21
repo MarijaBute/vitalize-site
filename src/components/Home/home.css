@@ -9,6 +9,7 @@
     align-items: center;
 }
 
+
 .text-box-section{
     background-color: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
@@ -59,4 +60,40 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
+}
+
+@media screen and (max-width: 840px){
+    .text-box-section{
+        width: 100%;
+        background-color: transparent;
+        backdrop-filter: none;
+        margin-left: 0;
+    }
+
+    .home-heading{
+        margin-block: 20px !important;
+    }
+
+    .text-box-paragraph{
+        margin-block: 20px !important;
+    }
+
+    .home-button{
+        margin-block: 20px !important;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .home-heading{
+        font-size: 30px;
+    }
+
+    .text-box-paragraph{
+        max-width: 90%;
+    }
+
+    .subheading{
+        font-size: 14px;
+        max-width: 90%;
+    }
 }
