@@ -1,0 +1,62 @@
+footer{
+    padding: 80px 80px 0 80px;
+}
+
+
+.footer-sections{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.footer-heading{
+    font-size: 16px;
+    font-weight: 500;
+    color: #132016;
+}
+
+.footer-section ul{
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+.footer-section li{
+    font-size: 16px;
+    color: #132016;
+    font-weight: 400;
+    padding-block: 7px;
+    cursor: pointer;
+}
+
+.footer-section li:hover{
+    color: rgba(19, 32, 22, .6);
+}
+
+.input-email{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.footer-button{
+    margin-top: 10px;
+}
+
+.footer-btn{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #396042;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 14px;
+    font-weight: 400;
+    color: #132016;
+    text-align: center;
+}
