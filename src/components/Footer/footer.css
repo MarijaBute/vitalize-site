@@ -60,3 +60,23 @@ footer{
     color: #132016;
     text-align: center;
 }
+
+@media screen and (max-width: 1080px){
+    footer{
+        padding: 40px 40px 0 40px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .footer-sections{
+        flex-direction: column;
+    }
+
+    .footer-section{
+        width: 100%;
+    }
+
+    .input-email{
+        width: 100%;
+    }
+}

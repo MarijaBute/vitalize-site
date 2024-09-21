@@ -108,3 +108,29 @@
     align-items: center;
     gap: 5px;
 }
+
+@media screen and (max-width: 1110px){
+    .blog-posts-section{
+        padding: 40px;
+    }
+
+    .blog-post-image{
+        max-height: 150px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .blog-posts{
+        flex-direction: column;
+    }
+
+    .blog-post{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .blog-post-image{
+        max-height: 250px;
+        border-radius: 20px;
+    }
+}
