@@ -27,3 +27,19 @@
     font-weight: 400;
     margin-top: 0 !important;
 }
+
+@media screen and (max-width: 1170px){
+    .site-counter{
+        padding: 40px;
+    }
+
+    .counter-wrapper{
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .site-counter{
+        padding: 20px;
+    }
+}
