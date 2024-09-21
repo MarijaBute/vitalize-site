@@ -93,3 +93,18 @@
     align-items: center;
     gap: 5px;
 }
+
+@media screen and (max-width: 1080px) {
+    .home-services{
+        padding: 40px;
+    }
+    
+    .home-services-wrapper{
+        flex-direction: column;
+    }
+
+    .home-services-left,
+    .home-services-right{
+        width: 100%;
+    }
+}
