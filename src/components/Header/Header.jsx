@@ -1,5 +1,6 @@
 import './header.css'
 import { Link } from "react-router-dom"
+import { CgMenuRight } from "react-icons/cg";
 
 
 export default function Header() {
@@ -21,6 +22,8 @@ export default function Header() {
                     <div className="header-socials">
                         socials
                     </div>
+
+                    <div className="mobile-menu"><CgMenuRight /></div>
                 </div>
             </div>
         </header>

@@ -8,6 +8,9 @@
     z-index: 1; 
 }
 
+.mobile-menu{
+    display: none;
+}
 
 .header-wrapper{
     display: flex;
@@ -22,4 +25,23 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+@media screen and (max-width: 700px){
+    .mobile-menu{
+        display: block;
+    }
+
+    .header-links{
+        display: none;
+    }
+
+    .header-socials{
+        display: none;
+    }
+
+    .header-wrapper{
+        justify-content: space-between;
+        padding-inline: 20px;
+    }
 }
