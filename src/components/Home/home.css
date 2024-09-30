@@ -64,10 +64,10 @@
 
 @media screen and (max-width: 840px){
     .text-box-section{
-        width: 100%;
+        width: 80%;
         background-color: transparent;
         backdrop-filter: none;
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 
     .home-heading{
