@@ -28,6 +28,7 @@ footer{
     font-weight: 400;
     padding-block: 7px;
     cursor: pointer;
+    transition: all .3s;
 }
 
 .footer-section li:hover{
@@ -52,6 +53,11 @@ footer{
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.footer-btn:hover{
+    background-color: #4d8058;
 }
 
 .copyright{

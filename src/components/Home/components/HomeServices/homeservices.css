@@ -58,6 +58,12 @@
     align-items: center;
     justify-content: center;
     gap: 7px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.services-btn:hover{
+    background-color: #4d8058;
 }
 
 .service-cards{

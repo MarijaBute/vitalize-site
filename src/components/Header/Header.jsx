@@ -1,6 +1,7 @@
 import './header.css'
 import { Link } from "react-router-dom"
 import { CgMenuRight } from "react-icons/cg";
+import { SlSocialInstagram, SlSocialLinkedin, SlSocialFacebook } from "react-icons/sl";
 
 
 export default function Header() {
@@ -20,7 +21,9 @@ export default function Header() {
                     </div>
 
                     <div className="header-socials">
-                        socials
+                    <SlSocialInstagram size={18}/>
+                    <SlSocialLinkedin size={18}/>
+                    <SlSocialFacebook size={18}/>
                     </div>
 
                     <div className="mobile-menu"><CgMenuRight /></div>

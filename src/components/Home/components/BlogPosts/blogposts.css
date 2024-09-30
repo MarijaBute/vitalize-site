@@ -98,6 +98,12 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.blog-btn:hover{
+    background-color: #4d8058;
 }
 
 .blog-post-link{

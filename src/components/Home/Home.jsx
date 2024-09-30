@@ -9,6 +9,7 @@ import FAQ from './components/FAQ/FAQ';
 import BlogPosts from './components/BlogPosts/BlogPosts';
 import ContactSection from './components/ContactSection/ContactSection';
 
+
 export default function Home() {
     return (
         <>
