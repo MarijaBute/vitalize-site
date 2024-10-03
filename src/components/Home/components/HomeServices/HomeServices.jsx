@@ -24,7 +24,7 @@ export default function HomeServices() {
                         start: "top 80%", 
                         toggleActions: "play none none none",
                     },
-                    delay: index * 0.3, 
+                    delay: index * 0.2, 
                 }
             );
         });
